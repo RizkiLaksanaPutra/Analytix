@@ -8,3 +8,4 @@ streamlit
 git+https://github.com/RizkiLaksanaPutra/streamlit_login_auth_ui
 streamlit_ydata_profiling
 ydata_profiling
+argon2-cffi
