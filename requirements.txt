@@ -5,7 +5,6 @@ plotly
 scikit_learn
 seaborn
 streamlit
-streamlit_login_auth_ui
+git+https://github.com/RizkiLaksanaPutra/streamlit_login_auth_ui
 streamlit_ydata_profiling
 ydata_profiling
-trycourier
