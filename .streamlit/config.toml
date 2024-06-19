@@ -1,0 +1,9 @@
+[client]
+showErrorDetails = false
+showSidebarNavigation = false
+
+[theme]
+base="dark"
+
+[general]
+caching = false
