@@ -8,3 +8,4 @@ streamlit
 streamlit_login_auth_ui
 streamlit_ydata_profiling
 ydata_profiling
+trycourier
