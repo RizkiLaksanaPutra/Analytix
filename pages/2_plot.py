@@ -10,7 +10,6 @@ for page_link, label, icon in zip(sidebar['page_link'], sidebar['label'], sideba
         
 df = pd.read_csv('dataset.csv')
 
-
 # App title
 st.title("Scatter Plot Visualization")
 

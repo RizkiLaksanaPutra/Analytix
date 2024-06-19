@@ -47,6 +47,3 @@ if LOGGED_IN == True:
         st.dataframe(df)
     else:
         df = pd.DataFrame()
-    
-
-   
