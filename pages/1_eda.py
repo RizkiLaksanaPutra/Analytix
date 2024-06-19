@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import pandas as pd
 from ydata_profiling import ProfileReport
-from streamlit_pandas_profiling import st_profile_report
+from streamlit_ydata_profiling import st_profile_report
 from sidebar import sidebar
 
 st.set_page_config(page_title = "AnalyTIX", page_icon = "📝", layout="wide")
@@ -15,6 +15,6 @@ df = pd.read_csv('dataset.csv')
 if not df.empty:
     st.title('Exploratory Data Analysis Automation')
     profile_report = df.profile_report(config_file="pages/config_py.yml", interactions=None)
-    st_profile_report(profile_report)
+    st_profile_report(profile_report, navbar=True)
 else:
-    st.warning('Please upload the dataset first')   
+    st.warning('Please upload the dataset first')
